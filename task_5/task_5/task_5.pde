@@ -1,0 +1,61 @@
+
+
+
+void setup() {
+ MethodOne();
+ MethodTwo();
+ }
+ 
+
+//  The following method has an error in it. Fix the error and run it.
+ 
+ // task 5  method one
+
+ void MethodOne()
+ {
+ int i = 1000; // You are not allowed to change this line.
+ 
+ int max = 10;
+ 
+ if (i > max)
+ {
+ String output = +i+ " is greater than "+max+".";
+ println(output);
+ }
+ 
+ 
+ 
+ }
+ 
+ 
+ /*
+ Finish the following method so that we can change the number assigned
+ to the weekday and it prints the correct output.
+ */
+
+
+ void MethodTwo()
+ {
+ int weekDay = 0; // 0 = Monday, 6 = Sunday.
+ boolean weekend = false;
+ 
+ for (int i = 0; i < 5;  i++)
+ {
+ weekDay++;
+ 
+ // Print the name of the weekday here:
+ 
+ }if(weekDay < 5){
+ weekend= false;
+ 
+ // Print if it is weekend here:
+ 
+ }else{
+ weekend = true;
+ println(weekend);
+ }
+ 
+ 
+ }
+ 
+ 
