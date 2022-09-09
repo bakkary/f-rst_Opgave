@@ -1,10 +1,10 @@
-
+int max = 20
  
  
 
 // task 4 del 1
  
- for(int i = 0 ; i <= 20 ; i++){
+ for(int i = 0 ; i <= max ; i++){
  if(i % 2 == 0 ){
  println(i);
  }
@@ -20,7 +20,7 @@
  
  int i = 0;
  
- while( i <= 20 ){
+ while( i <= max ){
  if(i % 2 == 0 ){
  println(i);
  
