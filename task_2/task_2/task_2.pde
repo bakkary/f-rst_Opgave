@@ -3,6 +3,8 @@
  
  println(name);
  
+ String yeno = "dont";
+ 
  int age = 26;
  
  println(age);
@@ -17,7 +19,7 @@
  
  
  }else {
- print(" i dont clap my hands");
+ print(" i " +yeno+ " clap my hands");
  
  
  }
