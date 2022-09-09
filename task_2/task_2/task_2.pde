@@ -1,9 +1,8 @@
-
- String name = "Andreas";
+ String name = "Andreas ";
  
  println(name);
  
- String yeno = "dont";
+ String yeno = "";
  
  int age = 26;
  
@@ -12,14 +11,15 @@
  boolean happy = true;
  println(happy);
  
- print("hi my name is "+name, "i am " + age);
+ print("hi my name is "+name+ " am " + age);
  
- if (happy == true){
- print( " i  clap my hands");
+ if (happy == false){
+ yeno="don´t";
  
- 
- }else {
- print(" i " +yeno,  " clap my hands");
  
  
  }
+ 
+ 
+  print(" i " +yeno+  " clap my hands");
+ 
