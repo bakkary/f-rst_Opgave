@@ -16,7 +16,7 @@
 
 
 
-// task 4 del 2
+// task 4 del 2 og 3
  
  int i = 0;
  
